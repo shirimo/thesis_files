@@ -44,7 +44,7 @@ module LogarithmicProofBinarySearch refines BinarySearchInterface
 	
 	predicate BinaryLoop(q: seq<int>,lo: int, hi: int,r: int, key: int)
 	{
-		0<=lo<=hi<=|q| && -1<=r<|q|&& (r<0 ==> key !in q[..lo] && key !in q[hi..]) && (0<=r ==> r<|q| && q[r]==key)
+		0<=lo<=hi<=|q| && (r<0 ==> key !in q[..lo] && key !in q[hi..]) && (0<=r ==> r<|q| && q[r]==key)
 	}
 
 	method binarySearch(q: seq<int>, key: int) 
