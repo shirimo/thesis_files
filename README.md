@@ -1,5 +1,5 @@
 # thesis_files
-**All the code which have been written as part of my thesis, arranged in the following  files:
+**All the code that have been written as part of my thesis, arranged in the following  files:
 
 lin_nots.dfy  - definitions specifications and lemmas provided in Chapter 3 section 3.3 for demonstrating big-O, Omega and Theta notations with Dafny.
 
@@ -28,6 +28,8 @@ mod_fibo_req - interface and implementation modules of verified functionally and
 mod_powersetHlp - definitions specifications and lemmas provided for powerset algorithms.
 
 mod_powersetSize - interface and implementation modules of verified functionally powerset generating algorithm, and verifying the powerset size.
+
+**The code have been compiled with Dafny 2.3.0
 
 **The thesis PDF is in:
 Shiri_Morshtein_Thesis.pdf
